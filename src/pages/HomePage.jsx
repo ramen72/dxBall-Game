@@ -1,11 +1,14 @@
 import React from 'react';
-import DxBallGame from '../components/home/DxBallGame';
+import Test from '../components/home/Test';
+import DXBallGame from '../components/home/DXBallGameTwo';
 
 const HomePage = () => {
     return (
         <>
             <div className="h-screen bg-[#222] border flex arial justify-center items-center">
-                <DxBallGame/>
+                {/* <DxBallGame/> */}
+                {/* <Test/> */}
+                <DXBallGame/>
             </div>
         </>
     );
